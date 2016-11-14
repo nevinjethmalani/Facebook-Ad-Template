@@ -14,6 +14,7 @@
 		0D05BADC1DDA23030061E6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D05BADA1DDA23030061E6D4 /* LaunchScreen.storyboard */; };
 		0D05BAE71DDA23030061E6D4 /* FacebookAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D05BAE61DDA23030061E6D4 /* FacebookAdTests.swift */; };
 		0D05BAF21DDA23030061E6D4 /* FacebookAdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D05BAF11DDA23030061E6D4 /* FacebookAdUITests.swift */; };
+		0D05BB001DDA29880061E6D4 /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D05BAFF1DDA29880061E6D4 /* BoardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0D05BAED1DDA23030061E6D4 /* FacebookAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D05BAF11DDA23030061E6D4 /* FacebookAdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAdUITests.swift; sourceTree = "<group>"; };
 		0D05BAF31DDA23030061E6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D05BAFF1DDA29880061E6D4 /* BoardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0D05BAD11DDA23030061E6D4 /* AppDelegate.swift */,
 				0D05BAD31DDA23030061E6D4 /* ViewController.swift */,
 				0D05BAD51DDA23030061E6D4 /* Main.storyboard */,
+				0D05BAFF1DDA29880061E6D4 /* BoardCell.swift */,
 				0D05BAD81DDA23030061E6D4 /* Assets.xcassets */,
 				0D05BADA1DDA23030061E6D4 /* LaunchScreen.storyboard */,
 				0D05BADD1DDA23030061E6D4 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					0D05BACD1DDA23020061E6D4 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZX8GF82K43;
 						ProvisioningStyle = Automatic;
 					};
 					0D05BAE11DDA23030061E6D4 = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D05BAD41DDA23030061E6D4 /* ViewController.swift in Sources */,
+				0D05BB001DDA29880061E6D4 /* BoardCell.swift in Sources */,
 				0D05BAD21DDA23030061E6D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZX8GF82K43;
 				INFOPLIST_FILE = FacebookAd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notifynearby.FacebookAd;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZX8GF82K43;
 				INFOPLIST_FILE = FacebookAd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notifynearby.FacebookAd;
